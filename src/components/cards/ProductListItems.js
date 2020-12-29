@@ -12,7 +12,7 @@ const ProductListItems = ({ product }) => {
     quantity,
     sold,
   } = product;
-
+ 
   return (
     <ul className="list-group">
       <li className="list-group-item">

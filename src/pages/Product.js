@@ -15,7 +15,7 @@ const Product = ({ match }) => {
   const { user } = useSelector((state) => ({ ...state }));
 
   const { slug } = match.params;
-
+ 
   useEffect(() => {
     loadSingleProduct();
   }, [slug]);

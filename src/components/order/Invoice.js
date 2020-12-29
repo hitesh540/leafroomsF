@@ -7,7 +7,7 @@ import {
   TableBody,
   DataTableCell,
 } from "@david.kucsai/react-pdf-table";
-
+ 
 const Invoice = ({ order }) => (
   <Document>
     <Page style={styles.body}>

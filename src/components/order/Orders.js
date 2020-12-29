@@ -15,7 +15,7 @@ const Orders = ({ orders, handleStatusChange }) => {
           <th scope="col">Shipping</th>
         </tr>
       </thead>
-
+ 
       <tbody>
         {order.products.map((p, i) => (
           <tr key={i}>

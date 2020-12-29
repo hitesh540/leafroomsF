@@ -13,7 +13,7 @@ const Cart = ({ history }) => {
       return currentValue + nextValue.count * nextValue.price;
     }, 0);
   };
-
+ 
   const saveOrderToDb = () => {
     // console.log("cart", JSON.stringify(cart, null, 4));
     userCart(cart, user.token)

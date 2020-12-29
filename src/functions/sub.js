@@ -12,7 +12,7 @@ export const removeSub = async (slug, authtoken) =>
       authtoken,
     },
   });
-
+ 
 export const updateSub = async (slug, sub, authtoken) =>
   await axios.put(`${process.env.REACT_APP_API}/sub/${slug}`, sub, {
     headers: {

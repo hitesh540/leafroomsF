@@ -95,5 +95,5 @@ const FooterPagePro = () => {
     </MDBFooter>
   );
 }
-
+ 
 export default FooterPagePro;

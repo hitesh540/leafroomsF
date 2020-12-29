@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import { EditOutlined, DeleteOutlined } from "@ant-design/icons";
 import CategoryForm from "../../../components/forms/CategoryForm";
 import LocalSearch from "../../../components/forms/LocalSearch";
-
+ 
 const CategoryCreate = () => {
   const { user } = useSelector((state) => ({ ...state }));
 

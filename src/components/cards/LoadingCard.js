@@ -12,7 +12,7 @@ const LoadingCard = ({ count }) => {
         </Card>
       );
     }
-
+ 
     return totalCards;
   };
 

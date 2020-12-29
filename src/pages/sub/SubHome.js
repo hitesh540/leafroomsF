@@ -8,7 +8,7 @@ const SubHome = ({ match }) => {
   const [loading, setLoading] = useState(false);
 
   const { slug } = match.params;
-
+  
   useEffect(() => {
     setLoading(true);
     getSub(slug).then((res) => {

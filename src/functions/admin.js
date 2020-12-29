@@ -6,7 +6,7 @@ export const getOrders = async (authtoken) =>
       authtoken,
     },
   });
-
+ 
 export const changeStatus = async (orderId, orderStatus, authtoken) =>
   await axios.put(
     `${process.env.REACT_APP_API}/admin/order-status`,

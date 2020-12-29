@@ -10,7 +10,7 @@ const CategoryUpdate = ({ history, match }) => {
 
   const [name, setName] = useState("");
   const [loading, setLoading] = useState(false);
-
+ 
   useEffect(() => {
     loadCategory();
   }, []);

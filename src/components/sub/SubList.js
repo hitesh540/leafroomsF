@@ -5,7 +5,7 @@ import { getSubs } from "../../functions/sub";
 const SubList = () => {
   const [subs, setSubs] = useState([]);
   const [loading, setLoading] = useState(false);
-
+ 
   useEffect(() => {
     setLoading(true);
     getSubs().then((res) => {

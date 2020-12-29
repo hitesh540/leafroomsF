@@ -12,7 +12,7 @@ const FileUpload = ({ values, setValues, setLoading }) => {
     // resize
     let files = e.target.files; // 3
     let allUploadedFiles = values.images;
-
+ 
     if (files) {
       setLoading(true);
       for (let i = 0; i < files.length; i++) {

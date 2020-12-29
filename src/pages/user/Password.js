@@ -11,7 +11,7 @@ const Password = () => {
     e.preventDefault();
     setLoading(true);
     // console.log(password);
-
+ 
     await auth.currentUser
       .updatePassword(password)
       .then(() => {

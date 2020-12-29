@@ -11,7 +11,7 @@ import LocalSearch from "../../../components/forms/LocalSearch";
 
 const SubCreate = () => {
   const { user } = useSelector((state) => ({ ...state }));
-
+ 
   const [name, setName] = useState("");
   const [loading, setLoading] = useState(false);
   const [categories, setCategories] = useState([]);

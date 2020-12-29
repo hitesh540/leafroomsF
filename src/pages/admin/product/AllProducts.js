@@ -11,7 +11,7 @@ const AllProducts = () => {
   const [loading, setLoading] = useState(false);
   // redux
   const { user } = useSelector((state) => ({ ...state }));
-
+ 
   useEffect(() => {
     loadAllProducts();
   }, []);

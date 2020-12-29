@@ -3,7 +3,7 @@ import { Card } from "antd";
 import laptop from "../../images/laptop.png";
 import { EditOutlined, DeleteOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-
+ 
 const { Meta } = Card;
 
 const AdminProductCard = ({ product, handleRemove }) => {

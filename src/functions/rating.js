@@ -14,7 +14,7 @@ export const showAverage = (p) => {
 
     let highest = length * 5;
     // console.log("highest", highest);
-
+ 
     let result = (totalReduced * 5) / highest;
     // console.log("result", result);
 

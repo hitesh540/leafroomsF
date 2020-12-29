@@ -2,7 +2,7 @@ import React from "react";
 import Jumbotron from "../components/cards/Jumbotron";
 import FooterPagePro from "./Footer";
 
-
+ 
  
 const Terms = () => {
     return (

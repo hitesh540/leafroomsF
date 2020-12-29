@@ -29,7 +29,7 @@ const ShowPaymentInfo = ({ order, showStatus = true }) => (
         <span className="badge bg-primary text-white">
           STATUS: {order.orderStatus}
         </span>
-      )}
+      )} 
     </p>
   </div>
 );

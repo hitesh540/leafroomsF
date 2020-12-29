@@ -5,7 +5,7 @@ import { getCategories } from "../../functions/category";
 const CategoryList = () => {
   const [categories, setCategories] = useState([]);
   const [loading, setLoading] = useState(false);
-
+ 
   useEffect(() => {
     setLoading(true);
     getCategories().then((c) => {

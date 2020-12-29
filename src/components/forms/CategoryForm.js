@@ -17,5 +17,5 @@ const CategoryForm = ({ handleSubmit, name, setName }) => (
     </div>
   </form>
 );
-
+ 
 export default CategoryForm;

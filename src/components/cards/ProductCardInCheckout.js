@@ -10,7 +10,7 @@ import {
 } from "@ant-design/icons";
 
 const ProductCardInCheckout = ({ p }) => {
-
+ 
   const colors = ["OneDay", "OneWeek", "OneMonth", "MoreThanMonth"];
   let dispatch = useDispatch();
 

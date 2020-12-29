@@ -12,7 +12,7 @@ const Wishlist = () => {
   useEffect(() => {
     loadWishlist();
   }, []);
-
+ 
   const loadWishlist = () =>
     getWishlist(user.token).then((res) => {
       // console.log(res);

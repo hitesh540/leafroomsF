@@ -15,7 +15,7 @@ import { addToWishlist } from "../../functions/user";
 import { toast } from "react-toastify";
 import { useHistory } from "react-router-dom";
 
-
+ 
 const { TabPane } = Tabs;
 
 // this is childrend component of Product page

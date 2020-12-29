@@ -10,5 +10,5 @@ const Jumbotron = ({ text }) => (
     }}
   />
 );
-
+ 
 export default Jumbotron;
