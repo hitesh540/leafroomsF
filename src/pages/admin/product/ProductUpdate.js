@@ -18,7 +18,7 @@ const initialState = {
   price: "",
   category: "",
   subs: [],
-  shipping: "",
+  categry: "",
   quantity: "",
   images: [],
   colors: ["OneDay", "OneWeek", "OneMonth", "MoreThanMonth"],

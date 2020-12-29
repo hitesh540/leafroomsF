@@ -14,7 +14,7 @@ const Terms = () => {
         <h1 className="text-center p-3 mt-5 mb-5 display-4 jumbotron">
         Terms and Conditions
         </h1>
-       <p>Please read these Terms and Conditions carefully before using the leafroomsera.com website (the “Service”) operated by Leaf Technologies</p>
+       <p>Please read these Terms and Conditions carefully before using the <em>www.roomonline.in</em> website</p>
   <br/>
   <p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service. You warrant that you are at least 18- years-old and you are legally capable of entering into binding contracts. If you are under 18-years-old, you warrant that you have obtained consent from your parent or guardian and they agree to be bound by these Terms on your behalf.</p>
   <br/>
@@ -27,7 +27,7 @@ const Terms = () => {
         <br/>
         <p>Once Booking is confiremed then that customer need to visit that site within 7  days to take that service otherwise if the customer is not visited that place within 7days then that booking may get cancelled.</p>
         <h4 className="text-center p-3 mt-5 mb-5 display-4 jumbotron">
-         Cash On Visit
+         Cash On Visit (COV)
         </h4>
         <p>If you wish to purchase any product or service made available through the Service (COV), we will not aks  you to supply any information relevant to your purchase including online transactions, insted we only accept the cash on the time of visit when you visit your selected room or homes location.</p>
         <br/>

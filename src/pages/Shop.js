@@ -42,7 +42,7 @@ const Shop = () => {
     "MoreThanMonth",
   ]);
   const [color, setColor] = useState("");
-  const [shipping, setShipping] = useState("");
+  const [categry, setCategry] = useState("");
 
   let dispatch = useDispatch();
   let { search } = useSelector((state) => ({ ...state }));
@@ -100,7 +100,7 @@ const Shop = () => {
     setSub("");
     setBrand("");
     setColor("");
-    setShipping("");
+    setCategry("");
     setTimeout(() => {
       setOk(!ok);
     }, 300);
@@ -136,7 +136,7 @@ const Shop = () => {
     setSub("");
     setBrand("");
     setColor("");
-    setShipping("");
+    setCategry("");
     // console.log(e.target.value);
     let inTheState = [...categoryIds];
     let justChecked = e.target.value;
@@ -168,7 +168,7 @@ const Shop = () => {
     setSub("");
     setBrand("");
     setColor("");
-    setShipping("");
+    setCategry("");
     fetchProducts({ stars: num });
   };
 
@@ -207,7 +207,7 @@ const Shop = () => {
     setStar("");
     setBrand("");
     setColor("");
-    setShipping("");
+    setCategry("");
     fetchProducts({ sub });
   };
 
@@ -237,7 +237,7 @@ const Shop = () => {
     setStar("");
     setColor("");
     setBrand(e.target.value);
-    setShipping("");
+    setCategry("");
     fetchProducts({ brand: e.target.value });
   };
 
@@ -267,34 +267,34 @@ const Shop = () => {
     setStar("");
     setBrand("");
     setColor(e.target.value);
-    setShipping("");
+    setCategry("");
     fetchProducts({ color: e.target.value });
   };
 
-  // 9. show products based on shipping yes/no
-  const showShipping = () => (
+  // 9. show products based on showCategry Bachelor/Family
+  const showCategry = () => (
     <>
       <Checkbox
         className="pb-2 pl-4 pr-4"
-        onChange={handleShippingchange}
+        onChange={handleCategrychange}
         value="Bachelor"
-        checked={shipping === "Bachelor"}
+        checked={categry === "Bachelor"}
       >
         Bachelor
       </Checkbox>
 
       <Checkbox
         className="pb-2 pl-4 pr-4"
-        onChange={handleShippingchange}
+        onChange={handleCategrychange}
         value="Family"
-        checked={shipping === "Family"}
+        checked={categry === "Family"}
       >
         Family
       </Checkbox>
     </>
   );
  
-  const handleShippingchange = (e) => {
+  const handleCategrychange = (e) => {
     setSub("");
     dispatch({
       type: "SEARCH_QUERY",
@@ -305,8 +305,8 @@ const Shop = () => {
     setStar("");
     setBrand("");
     setColor("");
-    setShipping(e.target.value);
-    fetchProducts({ shipping: e.target.value });
+    setCategry(e.target.value);
+    fetchProducts({ categry: e.target.value });
   };
 
   return (
@@ -321,7 +321,7 @@ const Shop = () => {
             mode="inline"
           >
 
-            {/* shipping */}
+            {/* categry */}
             <SubMenu
               key="7"
               title={
@@ -331,7 +331,7 @@ const Shop = () => {
               }
             >
               <div style={{ maringTop: "-10px" }} className="pr-5">
-                {showShipping()}
+                {showCategry()}
               </div>
             </SubMenu>
 

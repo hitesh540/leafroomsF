@@ -24,7 +24,7 @@ const ProductCreateForm = ({
     categories,
     category,
     subs,
-    shipping,
+    categry,
     quantity,
     images,
     colors,
@@ -115,13 +115,13 @@ const ProductCreateForm = ({
       <div className="form-group">
         <label>Category</label>
         <select
-          name="shipping"
+          name="categry"
           className="form-control"
           onChange={handleChange}
         >
           <option>Please select</option>
-          <option value="No">Family</option>
-          <option value="Yes">Bachelor</option>
+          <option value="Family">Family</option>
+          <option value="Bachelor">Bachelor</option>
         </select>
       </div>
 

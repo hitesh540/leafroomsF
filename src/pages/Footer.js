@@ -12,11 +12,11 @@ const FooterPagePro = () => {
         <MDBRow className="my-4">
           <MDBCol md="4" lg="4">
             <h5 className="text-uppercase mb-4 font-weight-bold">
-             <em>Leaf-Rooms-Era</em>
+             RoomOnline
             </h5>
           
             <p>
-            We are the www.leafroomsera.com we provides the details of rooms including flates, hostels and row houses on rent basis in different areas.
+            We are the <em>www.roomonline.in</em> we provides the details of rooms including flates, hostels and row houses on rent basis in different Areas of different Citys.
             </p>
           </MDBCol>
           <hr className="clearfix w-100 d-md-none" />
@@ -89,7 +89,7 @@ const FooterPagePro = () => {
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
           &copy; {new Date().getFullYear()} Copyright:{" "}
-          <a href="/">leafroomsera.com</a>
+          <a href="https://www.roomonline.in/">RoomOnline.in</a>
         </MDBContainer>
       </div>
     </MDBFooter>

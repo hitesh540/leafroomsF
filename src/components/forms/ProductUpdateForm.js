@@ -26,7 +26,7 @@ const ProductUpdateForm = ({
     price,
     category,
     subs,
-    shipping,
+    categry,
     quantity,
     images,
     colors,
@@ -119,13 +119,13 @@ const ProductUpdateForm = ({
       <div className="form-group">
         <label>Category</label>
         <select
-          value={shipping === "Yes" ? "Yes" : "No"}
-          name="shipping"
+          value={categry === "Bachelor" ? "Bachelor" : "Family"}
+          name="categry"
           className="form-control"
           onChange={handleChange}
         >
-          <option value="No">Family</option>
-          <option value="Yes">Bachelor</option>
+          <option value="Family">Family</option>
+          <option value="Bachelor">Bachelor</option>
         </select>
       </div>
 

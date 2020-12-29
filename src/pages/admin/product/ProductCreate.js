@@ -19,7 +19,7 @@ const initialState = {
   categories: [],
   category: "",
   subs: [],
-  shipping: "Bachelor",
+  categry: "Bachelor",
   quantity: "50",
   images: [
     // {

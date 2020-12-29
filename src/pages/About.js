@@ -21,8 +21,8 @@ const About = () => {
         <br/>
         <br/>
         <h6>
-          We are the www.leafroomsera.com we provides the details of rooms including flates, hostels and row houses on rent basis in different areas.
-          We give opportunities to our customers to get their dream room for their needs as per their requirements in a specific area.
+          We are the <em>www.roomonline.in</em> we provides the details of rooms including flates, hostels and row houses on rent basis in different areas.
+          We give opportunities to our customers to get a specific room for their needs as per their requirements in their selected Areas.
         </h6>
         <br/>
        
@@ -31,11 +31,11 @@ const About = () => {
         <h4 className="text-center p-3 mt-5 mb-5 display-4 jumbotron">
           Join Us
         </h4>
-        <Img src=" https://cf.bstatic.com/images/hotel/max1024x768/239/239163829.jpg" style={{ maxHeight: "60%", maxWidth: "60%" }}/>
+        <Img src="https://cf.bstatic.com/images/hotel/max1024x768/239/239163829.jpg" style={{ maxHeight: "60%", maxWidth: "60%" }}/>
         <br/>
         <br/>
         <h3>Join With Us</h3>
-        <h6>To start a Business with us just do contact us By using following details.</h6>
+        <h6>To start a Business with us, Please Contact us with the help of following details.</h6>
         <br/>
         <h4>Contact Us</h4>
         <br/>
